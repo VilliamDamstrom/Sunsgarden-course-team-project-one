@@ -9,7 +9,69 @@
 	<link rel="stylesheet" href="../common_styles/normalize.css">
 </head>
 <body>
-	<h1>an Example</h1>
-	<a href="#">helooo sadsad</a>
+	<header class="header header-landing">
+		<div class="header__container">
+			<div class="header__row header-landing__row">
+				<div class="header__logo">
+					<a href="../index.html"><img src="../common_styles/img/icons/logo_min.png" alt="logo"></a>
+				</div>
+				<div class="header__menu header-landing__menu">
+					<nav class="menu">
+						<ul class="menu__list header-landing__list">
+							<li>
+								<a href="../our_product-page/index.html" class="menu__link header-landing__link">Our products</a>
+							</li>
+							<li>
+								<a href="../about_us-page/index.html" class="menu__link header-landing__link">About us</a>
+							</li>
+							<li>
+								<a href="../gallery-page/index.html" class="menu__link header-landing__link">Gallery</a>
+							</li>
+							<li>
+								<a href="../contact_us-page/index.html" class="menu__link header-landing__link">Contact us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="landing page">
+			<div class="landing__container">
+				<div class="landing__title">
+					<h1 class="landing__logo">cozy corner</h1>
+					<div class="landing__text"><p>Cafe/Restaurant</p></div>
+				</div>
+				<div class="landing__form">
+					<form action="#" class="form__body">
+						<div class="form__guests">
+							<div class="select-icon">
+								<span class="select-icon1"></span>
+								<span class="select-icon2"></span>
+							</div>
+							<select name="guests" id="guests" class="form__guests-select" required>
+								<option value="">Guests</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+							</select>
+						</div>
+						<div class="form__date">
+							<input type="date" name="date" id="date" class="input" required>
+						</div>
+						<div class="form__time">
+							<input type="time" name="time" id="time" class="input" required>
+						</div>
+						<button type="submit" class="form__btn">reserve</button>
+					</form>
+				</div>
+			</div>
+		</section>
 </body>
 </html>
