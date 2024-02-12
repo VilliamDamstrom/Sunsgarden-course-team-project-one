@@ -1,9 +1,49 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
+
 
 /* font-family: 'Protest Riot', sans-serif;
 font-family: 'Roboto', sans-serif; */
+/* font-family: 'Caveat',cursive; */
+/* ============================================================================= */
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+	overflow-x: hidden;
+}
 
+.wrapper>main {
+	flex: 1 1 auto;
+	width: 100%;
+}
+
+.wrapper>* {
+	min-width: 0;
+}
+
+[class*=__container] {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+@media (max-width: 600px) {
+	[class*=__container] {
+		padding: 0 10px 0 10px;
+	}
+}
+
+[class*=page] {
+	min-height: 100vh;
+}
+/* ============================================================================= */
+
+/* stylize common links */
 a {
   color: #033013;
   transition: color 0.3s ease-out;
@@ -44,39 +84,7 @@ font-family: 'Protest Riot';
 h1{
 	font-size: 120px;
 }
-
-.wrapper {
-  width: 100%;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-  overflow-x: hidden;
-}
-.wrapper > main {
-  flex: 1 1 auto;
-  width: 100%;
-}
-.wrapper > * {
-  min-width: 0;
-}
-
-[class*=__container] {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-@media (max-width: 600px) {
-  [class*=__container] {
-    padding: 0 10px 0 10px;
-  }
-}
-
-[class*=page] {
-  min-height: 100vh;
-}
-
+/* ============================================================================= */
 /* stylize menu links */
 .header{
 	width: 100%;
@@ -126,3 +134,4 @@ h1{
 .sub-menu__link {
 	font-size: 18px;
 }
+/* ============================================================================= */

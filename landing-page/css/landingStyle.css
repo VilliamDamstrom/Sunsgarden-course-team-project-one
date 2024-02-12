@@ -1,3 +1,174 @@
-body {
-  font-weight: normal;
+.header-landing {
+  position: absolute;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.header-landing__menu:hover {
+  color: rgba(255, 255, 255, 0.9098039216);
+}
+.header-landing__list {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.header-landing__link {
+  color: rgba(255, 255, 255, 0.9098039216);
+  letter-spacing: 1.5px;
+}
+.header-landing__link::after {
+  background-color: rgba(255, 255, 255, 0.9098039216) !important;
+}
+
+.header-landing__list:hover .header-landing__link {
+  color: rgba(255, 255, 255, 0.9098039216) !important;
+}
+.header-landing__list:hover .header-landing__link::after {
+  background-color: #14f25d !important;
+}
+
+.landing {
+  background: url("../img/main.png") 0 0 no-repeat;
+}
+.landing__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.landing__title {
+  padding-top: 95px;
+  margin-bottom: 100px;
+}
+.landing__logo {
+  font-size: 150px;
+  cursor: default;
+  color: rgba(202, 234, 209, 0.55);
+  transition: all 0.5s ease-out;
+  text-shadow: rgb(72, 86, 65) 5px 8px 10px;
+}
+.landing__logo:hover {
+  color: rgb(202, 234, 209);
+  text-shadow: rgb(72, 86, 65) 5px 8px 40px;
+}
+.landing__text {
+  color: rgba(255, 255, 255, 0.9098039216);
+  font-family: "Caveat";
+  margin-top: -24px;
+  margin-right: -50px;
+  font-size: 34px;
+  text-align: right;
+  cursor: default;
+}
+.landing__form {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form__body {
+  display: flex;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+.form__guests {
+  position: relative;
+}
+.form__guests-select {
+  font-family: "Roboto";
+  width: 180px;
+  font-size: 20px;
+  padding: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.9098039216);
+  color: rgba(255, 255, 255, 0.9098039216);
+  transition: box-shadow 0.2s ease-out;
+}
+.form__guests-select option {
+  color: #000;
+}
+.form__guests-select:hover {
+  box-shadow: rgb(72, 86, 65) 0px 0px 20px;
+}
+.form__date {
+  position: relative;
+}
+.form__time {
+  position: relative;
+}
+.form__btn {
+  width: 180px;
+  color: rgba(255, 255, 255, 0.9098039216);
+  border: 1px solid rgba(255, 255, 255, 0.9098039216);
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  transition: background-color 0.3s ease-out;
+}
+.form__btn:hover {
+  background-color: #14f25d;
+}
+.form__btn:active {
+  padding-top: 2px;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  box-sizing: border-box;
+}
+
+.select-icon {
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  width: 27px;
+  height: 15px;
+  pointer-events: none;
+}
+.select-icon1 {
+  position: relative;
+  top: 7px;
+  left: 0;
+  display: block;
+  height: 2px;
+  width: 14px;
+  background-color: #fff;
+  transform: rotate(35deg);
+}
+.select-icon2 {
+  position: relative;
+  top: 5px;
+  right: -11px;
+  display: block;
+  height: 2px;
+  width: 15px;
+  background-color: #fff;
+  transform: rotate(-35deg);
+}
+
+.input {
+  color: rgba(255, 255, 255, 0.9098039216);
+  border: 1px solid rgba(255, 255, 255, 0.9098039216);
+  background-color: transparent;
+  width: 180px;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-out;
+}
+.input:hover {
+  box-shadow: rgb(72, 86, 65) 0px 0px 20px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+input[type=time]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
 }

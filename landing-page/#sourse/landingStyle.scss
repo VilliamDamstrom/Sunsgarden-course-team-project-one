@@ -1,3 +1,174 @@
-body{
-	font-weight: normal;
+
+.header-landing {
+	position: absolute;
+	z-index: 5;
+	background-color: rgb(0 0 0 / 10%);
+  &__row {
+
+  }
+  &__menu {
+	  &:hover{
+		  color: #ffffffe8;
+	  }
+}
+&__list {
+	 display: flex;
+	column-gap: 30px;
+  }
+  &__link {
+	color:  #ffffffe8;
+	letter-spacing: 1.5px;
+	&::after{
+		background-color: #ffffffe8 !important;
+
+	}
+  }
+}
+.header-landing__list:hover .header-landing__link{
+	color: #ffffffe8 !important;
+	&::after{
+		background-color:#14f25d !important;
+	}
+}
+//==========================================================================
+.landing {
+	background: url("../img/main.png") 0 0 no-repeat;
+	&__container {
+	  height: 100vh;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  gap: 100px;
+	}
+	&__title {
+	padding-top: 95px;
+	margin-bottom: 100px;
+}
+&__logo{
+	font-size: 150px;
+	cursor: default;
+	color: rgb(202 234 209 / 55%);
+	transition: all 0.5s ease-out;
+	text-shadow: rgb(72 86 65) 5px 8px 10px;
+	&:hover{
+		color: rgb(202 234 209);
+		text-shadow: rgb(72 86 65) 5px 8px 40px;
+	}
+}
+&__text {
+	color: #ffffffe8;
+	font-family: 'Caveat';
+	margin-top: -24px;
+	margin-right: -50px;
+	font-size: 34px;
+	text-align: right;
+	cursor: default;
+  }
+  &__form {
+	padding: 50px;
+	background-color: rgb(0 0 0 / 30%);
+}
+}
+.form {
+  &__body {
+	display: flex;
+	column-gap: 35px;
+  }
+  &__guests {
+	position: relative;
+	  &-select{
+		  font-family: "Roboto";
+		  width: 180px;
+		  font-size: 20px;
+		  padding: 5px;
+		  appearance: none;
+		  cursor: pointer;
+		  background-color: transparent;
+		  border: 1px solid #ffffffe8;
+		  color: #ffffffe8;
+		  option{
+			color: #000;
+		  }
+		  transition: box-shadow 0.2s ease-out;
+			&:hover{
+				box-shadow: rgb(72 86 65) 0px 0px 20px;
+			}
+	}
+}
+&__date {
+	position: relative;
+}
+&__time {
+	position: relative;
+}
+&__btn {
+	width: 180px;
+	color: #ffffffe8;
+	border: 1px solid #ffffffe8;
+	text-transform: uppercase;
+	font-size: 17px;
+	letter-spacing: 1.5px;
+	transition: background-color 0.3s ease-out;
+	&:hover{
+		background-color: #14f25d;
+	}
+	&:active{
+		padding-top: 2px;
+		border-top-width: 2px;
+		border-left-width: 2px;
+		border-right-width: 2px;
+		box-sizing: border-box;
+	}
+}
+}
+.select-icon{
+	position: absolute;
+	right: 8px;
+	top: 10px;
+	width: 27px;
+	height: 15px;
+	pointer-events: none;
+	&1{
+		position: relative;
+		top: 7px;
+		left: 0;
+		display: block;
+		height: 2px;
+		width: 14px;
+		background-color: #fff;
+		transform: rotate(35deg);
+	}
+	&2{
+		position: relative;
+		top: 5px;
+		right: -11px;
+		display: block;
+		height: 2px;
+		width: 15px;
+		background-color: #fff;
+		transform: rotate(-35deg);
+	}
+}
+.input{
+	color: #ffffffe8;
+	border: 1px solid #ffffffe8;
+	background-color: transparent;
+	width: 180px;
+	font-size: 20px;
+	padding: 5px;
+	cursor: pointer;
+	transition: box-shadow 0.2s ease-out;
+	&:hover{
+		box-shadow: rgb(72 86 65) 0px 0px 20px;
+	}
+}
+// invert the icon color to replace the color but doesn't work in all browsers
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); 
+  cursor: pointer;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer; 
 }
