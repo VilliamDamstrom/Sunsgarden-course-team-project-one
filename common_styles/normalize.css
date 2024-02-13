@@ -156,25 +156,15 @@ h1{
 	column-gap: 50px;
 	justify-content: space-around;
 }
-.footer__column {
-
-}
 .img-box {
 	margin-bottom: 25px;
 }
-.footer__link {}
-.footer__menu {}
 .footer-menu__list>li {
 	margin-bottom: 15px;
 }
 .footer__tel {
 	margin-bottom: 25px;
 }
-.fa-solid {}
-.fa-phone {}
 .footer__email {
 	margin-bottom: 25px;
 }
-.fa-paper-plane {}
-.footer__address {}
-.fa-map-location-dot {}
