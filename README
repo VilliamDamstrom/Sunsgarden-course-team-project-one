@@ -1,0 +1,12 @@
+/* Use only this fonts: */
+/* font-family: 'Protest Riot', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Caveat',cursive; */
+
+Copy icons to your project if it needed
+icon phone: <span class="icons"><i class="fa-solid fa-phone"></i></span>
+icon mail: <span class="icons"><i class="fa-solid fa-paper-plane"></i></span>
+icon map: <span class="icons"><i class="fa-solid fa-map-location-dot"></i></span>
+icon instagram:<span class="icons"> <i class="fa-brands fa-instagram"></i></span>
+icon facebook:<span class="icons"> <i class="fa-brands fa-facebook"></i></span>
+icon youtube:<span class="icons"> <i class="fa-brands fa-youtube"></i></span>
