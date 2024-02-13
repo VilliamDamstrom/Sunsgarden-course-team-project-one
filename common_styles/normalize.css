@@ -135,3 +135,46 @@ h1{
 	font-size: 18px;
 }
 /* ============================================================================= */
+/* footer */
+.icons{
+	margin-right: 5px;
+}
+.icons:hover{
+	color: #14f25d;
+	transition: color 0.3s ease-out;
+}
+.terms{
+	color: #0330138f;
+}
+.footer {
+	width: 100%;
+	padding: 20px 0;
+	background-color: #011c0a25;
+}
+.footer__container {
+	display: flex;
+	column-gap: 50px;
+	justify-content: space-around;
+}
+.footer__column {
+
+}
+.img-box {
+	margin-bottom: 25px;
+}
+.footer__link {}
+.footer__menu {}
+.footer-menu__list>li {
+	margin-bottom: 15px;
+}
+.footer__tel {
+	margin-bottom: 25px;
+}
+.fa-solid {}
+.fa-phone {}
+.footer__email {
+	margin-bottom: 25px;
+}
+.fa-paper-plane {}
+.footer__address {}
+.fa-map-location-dot {}
