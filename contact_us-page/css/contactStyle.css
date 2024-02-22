@@ -1,3 +1,94 @@
-.footer__header{
-	font-size: 100px;
+.contact-us{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.contact-us__container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 150px;
+}
+.contact-us__text {
+	position: relative;
+	height: 100%;
+	width: 34%;
+}
+.contact-us__img {
+	position: relative;
+	padding-top: 80%;
+	border-radius: 12%;
+}
+.contact-us__img img{
+	border-radius: 4%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.contact-us__form {
+ margin-bottom: 40px;
+}
+.form-contact-us {
+
+}
+.form-contact-us__box {
+	min-width: 400px;
+}
+.form-contact-us__form {
+	width: 100%;
+}
+.form-contact-us__label{
+	font-size: 45px;
+	color:#033013;
+	margin-bottom: 30px;
+} 
+.form-contact-us__input{
+	width: 100%;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #033013;
+	font-weight: 600;
+	border-bottom: 1px solid #033013;
+	padding: 15px;
+	padding-left: 5px;
+	margin-bottom: 25px;
+	transition: background-color 0.3s ease-out;
+} 
+.form-contact-us__input:hover{
+	background-color: #011c0a25;
+}
+.form-contact-us__input:focus{
+	background-color: #011c0a09;
+}
+.form-contact-us__button{
+	height: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #033013;
+	width: 180px;
+	color: #033013;
+	border: 1px solid #033013;
+	letter-spacing: 1.5px;
+	transition: background-color 0.3s ease-out;
+	padding: 10px;
+}
+
+.form-contact-us__button:hover {
+	background-color: #14f25d;
+}
+
+.form-contact-us__button:active {
+	padding-top: 12px;
+	padding-bottom: 8px;
+	border-top-width: 2px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	box-sizing: border-box;
 }
