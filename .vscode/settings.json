@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
 	"liveServer.settings.port": 5501
+=======
+    "liveServer.settings.port": 5501
+>>>>>>> parent of abb3497 (Revert "Merge pull request #7 from Esmatt123/Esmatts-branch")
 }
