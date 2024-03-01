@@ -1,6 +1,7 @@
 body {
   font-weight: normal;
 }
+
 .info__container {
   height: 40vh;
   display: flex;
@@ -26,7 +27,6 @@ p {
   font-weight: color #14f25d;
 }
  
- 
 html, body {
   height: 100%;
   width: 100%;
@@ -38,13 +38,7 @@ html, body {
   -webkit-text-size-adjust: 100%;
  
 }
- 
-/* .gallery__container {
-  display: flex;
-  justify-content: center;
-  align-items: row;
-} */
- 
+
 .row_one {
   display: flex;
   justify-content: space-evenly;
@@ -53,9 +47,11 @@ html, body {
   padding: 20px 20px 20px 20px;
   gap: 20px;
 }
+
 .row_one > img{
    width: 400px;
 }
+
 .row_two, .row_three, .row_four {
   display: flex;
   justify-content: space-evenly;
@@ -64,11 +60,13 @@ html, body {
   padding: 20px 20px 20px 20px;
   gap: 20px;
 }
+
 .row_two img,
 .row_three img,
 .row_four >img{
    width: 400px;
 }
+
 .row_four{
    margin-bottom: 50px;
 }
