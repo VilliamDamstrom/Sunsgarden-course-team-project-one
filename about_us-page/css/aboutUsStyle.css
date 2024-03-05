@@ -133,6 +133,8 @@ html {
     left: -30%;
     border-radius: 5px;
   }
+
+  
 }
 
 
@@ -147,6 +149,10 @@ html {
   .text {
     width: 100%;
     align-items: center;
+    margin-top: 300px;
+    margin-bottom: 250px;
+      
+    
   }
 
   .smaller-text {
@@ -160,18 +166,19 @@ html {
     width: 90%;
     height: 140%;
     position: relative;
+    margin-top: 200px;
+    margin-bottom: 50px;
   }
 
   .img-container-1 {
     position: absolute;
-    top: -20%;
     left: -20%;
     height: 50vh;
   }
 
   .img-container-2 {
     position: absolute;
-    top: 5%;
+    top: 60px;
     left: -33%;
     height: 50vh;
   }
