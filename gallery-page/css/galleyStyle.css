@@ -15,17 +15,15 @@ body {
   color: rgb(68, 126, 77);
  
 }
- 
+ .info__text{
+	 font-family: 'Caveat',cursive;
+	 font-size: 200%;
+ }
 h1 {
   font-family: 'Caveat',cursive;
   font-size: 300%;
 }
  
-p {
-  font-family: 'Caveat',cursive;
-  font-size: 200%;
-  font-weight: color #14f25d;
-}
  
 html, body {
   height: 100%;
