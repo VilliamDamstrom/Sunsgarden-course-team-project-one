@@ -28,6 +28,7 @@
 
 .landing {
   background: url("../img/main.png") 0 0 no-repeat;
+  background-size: cover;
 }
 .landing__container {
   height: 100vh;
