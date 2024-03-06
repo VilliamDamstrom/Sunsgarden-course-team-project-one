@@ -70,3 +70,9 @@ html, body {
 .row_four{
    margin-bottom: 50px;
 }
+
+img:hover {
+  opacity: 70%;
+  transition: opacity 1.5s;
+  
+}
