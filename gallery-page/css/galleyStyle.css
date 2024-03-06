@@ -50,6 +50,7 @@ html, body {
 
 .row_one > img{
    width: 400px;
+   object-fit: contain;
 }
 
 .row_two, .row_three, .row_four {
@@ -65,6 +66,7 @@ html, body {
 .row_three img,
 .row_four >img{
    width: 400px;
+   object-fit: contain;
 }
 
 .row_four{
